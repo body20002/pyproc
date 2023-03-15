@@ -1,0 +1,37 @@
+[project]
+name = "python-pyproc"
+version = "1.0"
+authors = [{ name = "Abdallah Gamal", email = "body20002.test@gmail.com" }]
+description = "Turn a function into a process with a simple decorator."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+keywords = ['python', 'process', 'async_process']
+classifiers = [
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Homepage" = "https://github.com/body20002/pyproc"
+"repository" = "https://github.com/body20002/pyproc"
+"Bug Tracker" = "https://github.com/body20002/pyproc/issues"
+
+[project.optional-dependencies]
+dev = ["black", "isort"]
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+line_length = 120
