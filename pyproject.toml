@@ -1,6 +1,6 @@
 [project]
 name = "python-pyproc"
-version = "1.0"
+version = "1.0.0a"
 authors = [{ name = "Abdallah Gamal", email = "body20002.test@gmail.com" }]
 description = "Turn a function into a process with a simple decorator."
 readme = "README.md"
