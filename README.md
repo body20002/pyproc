@@ -3,6 +3,8 @@
 ## Description
 Turn a function into a process with a simple decorator.
 
+This repo is highly inspired by [python-worker](https://github.com/Danangjoyoo/python-worker)
+
 ---
 
 ## Installation
