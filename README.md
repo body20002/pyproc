@@ -1,4 +1,4 @@
-# python-worker
+# pyproc
 
 ## Description
 Turn a function into a process with a simple decorator.
